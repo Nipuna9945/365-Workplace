@@ -8,6 +8,10 @@ package com.mycompany.p001;
  *
  * @author acer
  */
-public class NewClass_001 {
-    
+public class NewClass_001 
+{
+    class C_001
+    {
+        System.out.println("Hello World!");
+    }
 }
