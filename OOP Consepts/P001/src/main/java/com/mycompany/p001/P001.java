@@ -8,11 +8,13 @@ package com.mycompany.p001;
  *
  * @author acer
  */
-public class P001 {
+public class P001 
+{
+    int x = 5;
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-        System.out.println("Hello World!");
-        System.out.println("Hello World!");
+    public static void main(String[] args) 
+    {
+        P001 myObj = new P001();
+        System.out.println(myObj.x);
     }
 }
