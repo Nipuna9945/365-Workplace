@@ -8,6 +8,6 @@ package com.mycompany.p_001.V3;
  *
  * @author acer
  */
-public class P_001_V3 {
+public class NewClass_002 {
     
 }
