@@ -6,5 +6,5 @@ public class NewClass_001
 {
     String N1 = "Nipuna";
     String N2 = "Randeer";
-    int x;
+    int age;
 }

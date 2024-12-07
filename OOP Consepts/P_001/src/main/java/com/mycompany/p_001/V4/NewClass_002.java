@@ -10,8 +10,8 @@ public class NewClass_002
         NewClass_001 myObj2 = new NewClass_001();
         NewClass_001 myObj3 = new NewClass_001();
         
-        myObj3.x = 25;
+        myObj3.age = 25;
         
-        System.out.println("My full name is " + myObj1.N1 + " " + myObj2.N2 + " " + "and my age is " + myObj3.x);
+        System.out.println("My full name is " + myObj1.N1 + " " + myObj2.N2 + " " + "and my age is " + myObj3.age);
     }
 }
