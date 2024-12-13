@@ -4,12 +4,12 @@ package com.mycompany.p_001.V8;
 
 public class NewClass_001 
 {
-    static void myStatic()
+    static void myStaticMethod()
     {
         System.out.println("Hello this is the static one");
     }
     
-    public void myPublic()
+    public void myPublicMethod()
     {
         System.out.println("Hello this is the public one");
     }
@@ -17,6 +17,9 @@ public class NewClass_001
     
     public static void main(String[] args) 
     {
+        myStaticMethod();
         
+        NewClass_001 myObj = new NewClass_001();
+        myObj.myPublicMethod();
     }
 }
