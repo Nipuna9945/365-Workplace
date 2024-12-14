@@ -1,5 +1,5 @@
 
-package com.mycompany.p_001;
+package com.mycompany.p_001.V1;
 
 
 public class P_001 

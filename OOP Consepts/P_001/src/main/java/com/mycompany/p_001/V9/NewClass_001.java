@@ -10,7 +10,6 @@ public class NewClass_001
     
     public void Speed(int maxSpeed)
     {
-        
         System.out.println("The car speed is " + maxSpeed + "kmh-1");
     }
     
