@@ -6,7 +6,7 @@ public class NewClass_001
     private String fName = "Nipuna";
     private String lName = "Randeer";
     private int age = 25;
-    private String homeTown = "Gampaha";
+    private String homeTown = "gampaha";
     
     
     public static void main(String[] args) 
