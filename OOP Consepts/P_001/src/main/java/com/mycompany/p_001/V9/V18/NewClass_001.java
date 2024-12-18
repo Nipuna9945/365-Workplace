@@ -10,8 +10,8 @@ public class NewClass_001
     {
         NewClass_001 myObj = new NewClass_001();
         
-        myObj.x = 50;       // will generate an error: cannot assign a value to a final variable
-        myObj.Pi = 2.49;        // will generate an error: cannot assign a value to a final variable
+        //myObj.x = 50;       // will generate an error: cannot assign a value to a final variable
+        //myObj.Pi = 2.49;        // will generate an error: cannot assign a value to a final variable
                 
         System.out.println(myObj.x);
     }
