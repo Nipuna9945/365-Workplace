@@ -14,5 +14,6 @@ public class NewClass_001
         //myObj.Pi = 2.49;        // will generate an error: cannot assign a value to a final variable
                 
         System.out.println(myObj.x);
+        System.out.println(myObj.Pi);
     }
 }
