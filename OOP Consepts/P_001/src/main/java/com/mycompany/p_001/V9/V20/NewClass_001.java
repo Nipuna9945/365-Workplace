@@ -1,0 +1,7 @@
+
+package com.mycompany.p_001.V9.V20;
+
+public class NewClass_001 
+{
+    
+}
