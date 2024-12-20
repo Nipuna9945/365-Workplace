@@ -7,6 +7,6 @@ public class NewClass_001
     
     public static void main(String[] args) 
     {
-        
+        // You have to complete this project
     }
 }
