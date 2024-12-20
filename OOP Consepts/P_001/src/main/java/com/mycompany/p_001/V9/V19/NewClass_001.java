@@ -3,17 +3,17 @@ package com.mycompany.p_001.V9.V19;
 
 public class NewClass_001 
 {
-    static void myStaticMethod()
+    static void myStaticMethod()        // Static method
     {
         System.out.println("This is my static method");
     }
     
-    public void myPublicMethiod()
+    public void myPublicMethiod()       // Public method
     {
         System.out.println("This isn my public method");
     }
     
-    public static void main(String[] args) 
+    public static void main(String[] args)      // Main method
     {
         myStaticMethod();
         
