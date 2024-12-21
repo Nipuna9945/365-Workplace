@@ -9,6 +9,7 @@ abstract class NewClass_001
     public abstract void Study();
 }
 
+
 class Student extends NewClass_001
 {
     public int graduationYear = 2025;
