@@ -7,7 +7,7 @@ public class NewClass_002
     {
         NewClass_001 myObj = new NewClass_001();
         
-        myObj.setName("Nipuna");
+        myObj.setName("Nipuna Randeer");
         
         System.out.println(myObj.getName());
     }
