@@ -4,7 +4,7 @@ package com.mycompany.p_001.V9.Return_Type;
 public class NewClass_001 
 {
     
-    public static String myName()
+    static String myName()
     {
         return "Nipuna Randeer";
     }
