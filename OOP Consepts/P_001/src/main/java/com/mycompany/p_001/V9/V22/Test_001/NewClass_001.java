@@ -1,6 +1,7 @@
 
 package com.mycompany.p_001.V9.V22.Test_001;
 
-public class NewClass_001 {
+public class NewClass_001 
+{
     
 }
