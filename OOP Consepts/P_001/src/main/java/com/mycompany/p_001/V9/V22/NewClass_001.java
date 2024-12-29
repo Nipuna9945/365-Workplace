@@ -9,8 +9,9 @@ public class NewClass_001
     {
         Scanner myObj = new Scanner(System.in);
         
+        System.out.println("Enter a word : ");
         String myWord = myObj.nextLine();
-        
+
         System.out.println("Typed word is " + myWord);
     }
 }
