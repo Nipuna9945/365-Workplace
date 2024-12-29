@@ -10,15 +10,15 @@ public class NewClass_001
         Scanner myObj = new Scanner(System.in);
         
         System.out.print("Enter your name : ");
-        String myWord1 = myObj.nextLine();
+        String myWord1 = myObj.nextLine();      // Reads the first string
         
         System.out.print("Enter your age : ");
-        int myNumber = myObj.nextInt();
+        int myNumber = myObj.nextInt();     // Reads the first int
         
-        myObj.nextLine();
+        myObj.nextLine();       // We should remind the system that we about to enter string value
         
         System.out.print("Enter your hometown : ");
-        String myWord2 = myObj.nextLine();
+        String myWord2 = myObj.nextLine();      // Reads the second string
         
         System.out.println("Hello. My name is " + myWord1 + " and im " + myNumber + ". However im from " + myWord2);
     }
