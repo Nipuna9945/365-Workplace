@@ -15,7 +15,7 @@ public class NewClass_001
         System.out.print("Enter your age : ");
         int myNumber = myObj.nextInt();     // Reads the first int
         
-        myObj.nextLine();       // We should remind the system that we about to enter string value
+        myObj.nextLine();       // We should remind the system that we about to enter string value 
         
         System.out.print("Enter your hometown : ");
         String myWord2 = myObj.nextLine();      // Reads the second string
