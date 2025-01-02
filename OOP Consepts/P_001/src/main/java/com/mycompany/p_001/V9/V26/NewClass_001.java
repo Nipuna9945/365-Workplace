@@ -2,7 +2,7 @@
 package com.mycompany.p_001.V9.V26;
 
 
-    
+
 class Vehicle 
 {
   protected String brand = "Ford";        // Vehicle attribute
