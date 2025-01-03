@@ -49,6 +49,5 @@ public class NewClass_001
         
         myBikeObj.wheelie();
         myBikeObj.stunt();
-        
     }
 }
