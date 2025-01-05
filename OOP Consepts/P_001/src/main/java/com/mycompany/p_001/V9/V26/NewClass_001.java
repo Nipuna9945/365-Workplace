@@ -16,7 +16,9 @@ public class NewClass_001
 {
     public static void main(String[] args)
     {
-        OuterClass myOutClass = new OuterClass();
-        OuterClass.InnerClass myInnerClass = myOutClass.new InnerClass();
+        OuterClass myOuterClass = new OuterClass();
+        OuterClass.InnerClass myInnerClass = myOuterClass.new InnerClass();
+        
+        System.out.println(myOuterClass.x + myInnerClass.y);
     }
 }
