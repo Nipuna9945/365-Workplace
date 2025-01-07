@@ -7,7 +7,7 @@ class OuterClass
 {
     int x = 57;
     
-    static class innerClass
+     class innerClass
     {
         int y = 38;
     }
@@ -17,7 +17,13 @@ public class NewClass_001
 {
     public static void main(String[] args)
     {
-        OuterClass.innerClass myInner = new OuterClass.innerClass();
-        System.out.println(myInner.y);
+        //OuterClass.innerClass myInner = new OuterClass.innerClass();
+        //System.out.println(myInner.y);
+        
+        OuterClass myOuter = new OuterClass();
+        OuterClass.innerClass myInner = myOuter.new innerClass();
+        
+        System.out.println(myOuter.x + myInner.y);
+        
     }
 }
