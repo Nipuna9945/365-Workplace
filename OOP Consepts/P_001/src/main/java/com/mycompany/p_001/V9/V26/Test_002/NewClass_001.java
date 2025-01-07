@@ -18,6 +18,6 @@ public class NewClass_001
     public static void main(String[] args)
     {
         OuterClass.innerClass myInner = new OuterClass.innerClass();
-        System.err.println(myInner.y);
+        System.out.println(myInner.y);
     }
 }
