@@ -5,6 +5,8 @@ package com.mycompany.p_001.V9.V27;
 
 abstract class Animal
 {
+    public abstract void animalSound();
+    
     public void sleep() 
     {
         System.out.println("Zzz");
@@ -13,7 +15,7 @@ abstract class Animal
 
 class cat extends Animal
 {
-    
+    public void sleep() 
 }
 
 
