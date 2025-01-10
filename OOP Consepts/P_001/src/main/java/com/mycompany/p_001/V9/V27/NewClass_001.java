@@ -13,9 +13,12 @@ abstract class Animal
     }
 }
 
-class cat extends Animal
+class Cat extends Animal
 {
-    public void sleep() 
+    public void animalSound()
+    {
+        System.out.println("The cat says: meow meow");
+    }
 }
 
 
@@ -23,6 +26,9 @@ class NewClass_001
 {
     public static void main(String[] args)
     {
+        Cat myObj = new Cat();
         
+        myObj.sleep();
+        myObj.animalSound();
     }
 }
