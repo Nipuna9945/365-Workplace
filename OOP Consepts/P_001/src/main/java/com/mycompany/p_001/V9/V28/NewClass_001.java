@@ -13,6 +13,11 @@ interface SecondInterface
     
 }
 
+class DemoClass implements FirstInterface, SecondInterface
+{
+    
+}
+
 public class NewClass_001
 {
     public static void main(String[] args)
