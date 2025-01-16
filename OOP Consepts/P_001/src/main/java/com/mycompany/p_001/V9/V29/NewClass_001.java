@@ -27,9 +27,6 @@ public class NewClass_001
             case LOW:
                 System.out.println("This level is low");
                 break;
-                
-            default:
-                throw new AssertionError();
         }
     }
 }
