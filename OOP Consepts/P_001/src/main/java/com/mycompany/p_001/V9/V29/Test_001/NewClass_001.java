@@ -5,6 +5,13 @@ public class NewClass_001
 {
     enum Level
     {
-        LO
+        LOW,
+        MEDIUM,
+        HIGH
+    }
+    
+    public static void main(String[] args)
+    {
+        
     }
 }
