@@ -12,6 +12,9 @@ public class NewClass_001
     
     public static void main(String[] args)
     {
-        
+        for (Level myLevel : Level.values())
+        {
+            System.out.println(myLevel);
+        }
     }
 }
