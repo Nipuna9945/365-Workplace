@@ -3,7 +3,7 @@ package com.mycompany.p_001.V9.V33;
 
 import java.util.ArrayList;
 
-public class NewClass_004
+public class NewClass_005
 {
     public static void main(String[] args)
     {
@@ -14,7 +14,7 @@ public class NewClass_004
         cars.add("AMG");
         cars.add("GMC");
         
-        cars.clear();
+        
         
         System.out.println(cars);
     }
