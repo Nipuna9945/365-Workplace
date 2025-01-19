@@ -1,8 +1,8 @@
 
 package com.mycompany.p_001.V9.V33;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
+
 
 public class NewClass_001
 {
@@ -12,8 +12,7 @@ public class NewClass_001
         
         cars.add("BMW");
         cars.add("AMG");
-        cars.add("Toyota");
-        cars.add("McLaran");
+        cars.add("GMC");
         
         System.out.println(cars);
     }
