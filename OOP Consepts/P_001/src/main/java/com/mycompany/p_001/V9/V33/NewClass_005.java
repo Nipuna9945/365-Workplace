@@ -14,8 +14,6 @@ public class NewClass_005
         cars.add("AMG");
         cars.add("GMC");
         
-        
-        
-        System.out.println(cars);
+        System.out.println(cars.size());
     }
 }
