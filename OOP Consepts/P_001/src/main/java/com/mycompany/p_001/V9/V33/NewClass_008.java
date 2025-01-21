@@ -7,7 +7,7 @@ public class NewClass_008
 {
     public static void main(String[] args)
     {
-        ArrayList<Integer> numbers = new ArrayList<>();
+        ArrayList<Integer> numbers = new ArrayList<Integer>();
         
         numbers.add(18);
         numbers.add(37);
