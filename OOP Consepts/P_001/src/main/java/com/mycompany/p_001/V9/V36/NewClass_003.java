@@ -2,9 +2,8 @@
 package com.mycompany.p_001.V9.V36;
 
 import java.util.HashMap;
-import java.util.Locale;
 
-public class NewClass_002
+public class NewClass_003
 {
     public static void main(String[] args)
     {
@@ -16,6 +15,7 @@ public class NewClass_002
         myObj.put("Australia", "Melbone");
         myObj.put("Norway", "Oslo");
         
-        System.out.println(myObj.get("Canada"));
+        myObj.remove("USA");
+        System.out.println(myObj);    
     }
 }
