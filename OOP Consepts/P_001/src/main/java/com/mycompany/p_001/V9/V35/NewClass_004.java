@@ -16,7 +16,7 @@ public class NewClass_004
         numbers.add(17);
         numbers.add(24);
         
-        Collections.sort(numbers, Collections.reverseOrder ());
+        Collections.sort(numbers, Collections.reverseOrder());
         
         for (Integer i : numbers)
         {
