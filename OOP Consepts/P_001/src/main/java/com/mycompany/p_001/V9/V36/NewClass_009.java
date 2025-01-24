@@ -17,7 +17,7 @@ public class NewClass_009
         
         for(String i : myObj.keySet())
         {
-            System.out.println("Name: " + myObj + " Age: " + myObj.values());
+            System.out.println("Name: " + i + " Age: " + myObj.get(i));
         }
     }
 }
