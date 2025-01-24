@@ -3,7 +3,7 @@ package com.mycompany.p_001.V9.V36;
 
 import java.util.HashMap;
 
-public class NewClass_005
+public class NewClass_006
 {
     public static void main(String[] args)
     {
@@ -15,6 +15,9 @@ public class NewClass_005
         myObj.put("Australia", "Melbone");
         myObj.put("Norway", "Oslo");
         
-        System.out.println(myObj.size());
+        for (String i : myObj.keySet())
+        {
+            System.out.println(i);
+        }
     }
 }
