@@ -15,6 +15,8 @@ public class NewClass_003
         myObj.add("BMW");
         myObj.add("Mazda");
         
+        myObj.remove("Volvo");
         
+        System.out.println(myObj);
     }
 }
