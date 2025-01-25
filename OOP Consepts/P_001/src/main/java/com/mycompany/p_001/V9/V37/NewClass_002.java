@@ -16,5 +16,6 @@ public class NewClass_002
         myObj.add("Mazda");
         
         System.out.println(myObj.contains("Ford"));
+        System.out.println(myObj.contains("AMG"));
     }
 }
