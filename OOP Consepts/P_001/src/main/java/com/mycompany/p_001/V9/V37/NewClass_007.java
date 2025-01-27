@@ -10,20 +10,21 @@ public class NewClass_007
         HashSet<Integer> myObj = new HashSet<>();
         
         myObj.add(6);
-        myObj.add(3);
+        myObj.add(4);
         myObj.add(9);
+        myObj.add(1);
         
         for (int i = 1; i <= 10; i++)
         {
-            if (myObj.contains(i))
+            if(myObj.contains(i))
             {
-                System.out.println(i + "was found in the set");
-            } 
+                System.out.println(i + " This numbers is in list");
+            }
             
             else
             {
-                System.out.println(i + "was not found in the set");
+                System.out.println(i + " This numbers is not in list");
             }
-        } 
+        }
     }
 }
