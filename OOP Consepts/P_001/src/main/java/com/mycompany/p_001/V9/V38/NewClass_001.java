@@ -18,6 +18,6 @@ public class NewClass_001
         
         Iterator<String> it = myObj.iterator();
         
-        System.out.println(it);
+        System.out.println(it.next());
     }
 }
