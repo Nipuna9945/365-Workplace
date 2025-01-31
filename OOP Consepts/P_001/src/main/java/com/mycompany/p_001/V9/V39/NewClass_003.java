@@ -7,6 +7,10 @@ public class NewClass_003
     {
         Integer myInt = 49;
         Double myDouble = 4.18;
-        Character myCharactor = "Z"
+        Character myCharactor = 'Z';
+        
+        System.out.println(myInt.intValue());
+        System.out.println(myDouble.doubleValue());
+        System.out.println(myCharactor.charValue());
     }
 }
