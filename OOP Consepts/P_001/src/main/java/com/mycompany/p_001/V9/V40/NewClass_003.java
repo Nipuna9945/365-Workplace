@@ -18,6 +18,6 @@ public class NewClass_003
     
     public static void main(String[] args)
     {
-        checkAge(15);
+        checkAge(25);
     }
 }
