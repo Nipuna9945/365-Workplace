@@ -8,10 +8,10 @@ public class NewClass_001
 {
     public static void main(String[] args)
     {
-        Pattern pattern = Pattern.compile("boiz", Pattern.CASE_INSENSITIVE);
-        Matcher matcher = pattern.matcher("Hello boiz whats up");
+        Pattern myPattern = Pattern.compile("boiz", Pattern.CASE_INSENSITIVE);
+        Matcher myMatcher = myPattern.matcher("Hello boiz whats up");
         
-        boolean matchFound = matcher.find();
+        boolean matchFound = myMatcher.find();
         
         if(matchFound) 
         {
