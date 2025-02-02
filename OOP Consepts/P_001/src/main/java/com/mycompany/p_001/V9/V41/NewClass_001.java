@@ -11,5 +11,15 @@ public class NewClass_001
         Pattern pattern = Pattern.compile("boiz", Pattern.CASE_INSENSITIVE);
         Matcher matcher = pattern.matcher("Hello boiz whats up");
         
-    }
+        boolean matchFound = matcher.find();
+        
+        if(matchFound) 
+        {
+            System.out.println("Match found");
+        } 
+        
+        else 
+        {
+            System.out.println("Match not found");
+        }
 }
