@@ -5,8 +5,9 @@ public class NewClass_002 implements Runnable
 {
     public static void main(String[] args)
     {
-        NewClass_002 obj = new NewClass_002();
-        Thread myTRD = new Thread(obj);
+        NewClass_002 myObj = new NewClass_002();
+        Thread myThread = new Thread(myObj);
+        myThread.start();
         
         System.out.println("This code is outside of the thread");
     }
