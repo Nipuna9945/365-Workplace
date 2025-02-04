@@ -7,20 +7,6 @@ public class NewClass_003 extends Thread
     
     public static void main(String[] args)
     {
-        NewClass_003 myObj = new NewClass_003();
-        myObj.start();
         
-        while(myObj.isAlive())
-        {
-            System.out.println("Waiting...");
-        }
-        
-        System.out.println("Main: " + i);
-        i++;
-        System.out.println("Main: " + i);
-    }
-    public void run()
-    {
-        i++;
     }
 }
