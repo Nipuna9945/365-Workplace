@@ -19,4 +19,8 @@ public class NewClass_003 extends Thread
         i++;
         System.out.println("Main: " + i);
     }
+    public void run()
+    {
+        i++;
+    }
 }
