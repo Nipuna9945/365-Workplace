@@ -13,6 +13,6 @@ public class NewClass_001
         numbers.add(8);
         numbers.add(1);
         
-        numbers.forEach((n) -> { System.out.println(n); } );
+        numbers.forEach((n) -> { System.out.println(n); });
     }
 }
