@@ -3,9 +3,8 @@ package com.mycompany.p_001.V9.V44;
 
 import java.util.Comparator;
 
-public class NewClass_001
-{
-    class Car
+
+class Car
     {
         public String brand;
         public String model;
@@ -32,6 +31,10 @@ public class NewClass_001
         if (a.year > b.year) return 1;  // The first car has a larger year
         return 0; // Both cars have the same year
     }
+
+public class NewClass_001
+{
+    
 }
     
     
