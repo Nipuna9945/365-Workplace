@@ -6,12 +6,14 @@ import java.util.Collections;
 import java.util.Comparator;
 
 // Define a Car class
-class Car {
+class Car 
+{
   public String brand;
   public String model;
   public int year;
   
-  public Car(String b, String m, int y) {
+  public Car(String b, String m, int y) 
+  {
     brand = b;
     model = m;
     year = y;
@@ -19,8 +21,10 @@ class Car {
 }
 
 // Create a comparator
-class SortByYear implements Comparator {
-  public int compare(Object obj1, Object obj2) {
+class SortByYear implements Comparator 
+{
+  public int compare(Object obj1, Object obj2) 
+  {
     // Make sure that the objects are Car objects
     Car a = (Car) obj1;
     Car b = (Car) obj2;
@@ -32,7 +36,8 @@ class SortByYear implements Comparator {
   }
 }
 
-public class NewClass_001 { 
+public class NewClass_001 
+{ 
   public static void main(String[] args) 
   { 
     // Create a list of cars
@@ -46,8 +51,9 @@ public class NewClass_001 {
     Collections.sort(myCars, myComparator);
 
     // Display the cars
-    for (Car c : myCars) {
-      System.out.println(c.brand + " " + c.model + " " + c.year);
+    for (Car c : myCars) 
+    {
+        System.out.println(c.brand + " " + c.model + " " + c.year);
     }
   } 
 }
