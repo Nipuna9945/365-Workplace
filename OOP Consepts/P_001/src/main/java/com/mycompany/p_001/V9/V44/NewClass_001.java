@@ -33,7 +33,8 @@ class SortByYear implements Comparator {
 }
 
 public class NewClass_001 { 
-  public static void main(String[] args) { 
+  public static void main(String[] args) 
+  { 
     // Create a list of cars
     ArrayList<Car> myCars = new ArrayList<Car>();    
     myCars.add(new Car("BMW", "X5", 1999));
