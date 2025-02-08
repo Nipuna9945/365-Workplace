@@ -18,3 +18,5 @@ public class NewClass_002
         numbers.forEach(method);
     }
 }
+
+done
