@@ -2,6 +2,7 @@
 package com.mycompany.p_001.V9.V45;
 
 import java.io.File;
+import java.io.IOException;
 
 public class NewClass_001
 {
@@ -20,7 +21,7 @@ public class NewClass_001
                 System.out.println("File already exists.");
             }
         } 
-        catch (Exception e) 
+        catch (IOException e) 
         {
             System.out.println("An error occurred.");
             e.printStackTrace();
