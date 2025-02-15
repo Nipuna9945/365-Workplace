@@ -20,3 +20,5 @@ public class NewClass_002
         System.out.println("Sum is: " + sum);
     }
 }
+
+//Done
