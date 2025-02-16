@@ -5,6 +5,7 @@ public class NewClass_003
 {
     public static void main(String[] args)
     {
+        String words = "One Two Three Four";
         
     }
 }
