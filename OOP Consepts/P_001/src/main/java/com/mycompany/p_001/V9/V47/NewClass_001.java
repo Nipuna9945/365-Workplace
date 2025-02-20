@@ -5,9 +5,11 @@ public class NewClass_001
 {
     public static void main(String[] args)
     {
-        String words = "One Two Three four";
-        int countWords = words.split("//s").length;
+        String words = "One Two Three four five";
+        int countWords = words.split("\\s").length;
         
         System.out.println(countWords);
     }
 }
+
+//Done
