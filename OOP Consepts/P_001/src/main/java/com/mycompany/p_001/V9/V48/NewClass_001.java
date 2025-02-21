@@ -5,10 +5,17 @@ public class NewClass_001
 {
     public static void main(String[] args)
     {
-        for(int i = 0; i< OriginalSt.lengeth(): i ++)
+        String originalStr = "Hello";
+        String reversedStr = "";
+        
+        System.out.println("Original string: " + originalStr);  
+                
+        for (int i = 0; i < originalStr.length(); i++)
         {
-            
+            reversedStr = originalStr.charAt(i) + reversedStr;
         }
+        
+        System.out.println("Reversed string: " + reversedStr);
     }
  
 }
