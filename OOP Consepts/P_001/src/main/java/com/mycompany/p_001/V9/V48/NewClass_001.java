@@ -5,7 +5,7 @@ public class NewClass_001
 {
     public static void main(String[] args)
     {
-        String originalStr = "Hello";
+        String originalStr = "Hello world";
         String reversedStr = "";
         
         System.out.println("Original string: " + originalStr);  
