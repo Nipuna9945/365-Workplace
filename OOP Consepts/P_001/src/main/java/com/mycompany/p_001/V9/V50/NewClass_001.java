@@ -7,5 +7,6 @@ public class NewClass_001
     {
         String myStr = "Hello";
         char[] myArray = myStr.toCharArray();
+        System.out.println(myArray[0]);
     }
 }
