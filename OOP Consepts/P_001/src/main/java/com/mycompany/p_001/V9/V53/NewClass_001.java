@@ -1,14 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.mycompany.p_001.V9.V53;
 
-/**
- *
- * @author acer
- */
 public class NewClass_001
 {
-    
+    public static void main(String[] args)
+    {
+        int ages[] = {20, 22, 18, 35, 48, 26, 87, 70};
+        int lowestAge = ages[0];
+        
+        for (int age : ages)
+        {
+            if (lowestAge > age)
+            {
+                lowestAge = age;
+            }
+        }
+        
+        System.out.println("The lowest age in the array is: " + lowestAge);
+    }
 }
