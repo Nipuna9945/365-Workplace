@@ -1,14 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.mycompany.p_001.V9.V56;
 
-/**
- *
- * @author acer
- */
+enum Level 
+{
+  LOW,
+  MEDIUM,
+  HIGH
+}
+
 public class NewClass_001
 {
-    
+    public static void main(String[] args)
+    {
+        for (Level myVar : Level.values()) 
+        {
+            System.out.println(myVar);
+        }
+    }
 }
