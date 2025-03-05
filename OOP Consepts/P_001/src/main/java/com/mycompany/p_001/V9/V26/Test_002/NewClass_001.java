@@ -21,3 +21,6 @@ public class NewClass_001
         System.out.println(myInner.y);
     }
 }
+
+
+//Not yet
