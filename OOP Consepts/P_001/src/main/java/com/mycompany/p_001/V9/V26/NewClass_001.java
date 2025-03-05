@@ -22,3 +22,6 @@ public class NewClass_001
         System.out.println(myOuterClass.x + myInnerClass.y);
     }
 }
+
+
+//Not yet
