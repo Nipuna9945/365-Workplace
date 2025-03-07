@@ -23,3 +23,5 @@ public class NewClass_001
         System.out.println("Hello. My name is " + myWord1 + " and im " + myNumber + ". However im from " + myWord2);
     }
 }
+
+//Not yet
