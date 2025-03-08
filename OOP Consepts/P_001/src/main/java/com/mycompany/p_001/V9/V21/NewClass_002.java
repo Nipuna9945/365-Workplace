@@ -9,3 +9,5 @@ public class NewClass_002
     
     //System.out.println(myObj.name); // errors
 }
+
+//Not yet
