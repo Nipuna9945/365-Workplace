@@ -15,3 +15,5 @@ public class NewClass_002
         System.out.println("Hey I`m " + myObj.getfName() + " " + myObj.getlName() + ". I`m " + myObj.getAge() + " years old. " + "I`m from " + myObj.getHomeTown() + ".");
     }
 }
+
+//Not yet
