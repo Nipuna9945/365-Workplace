@@ -10,3 +10,5 @@ public class NewClass_001
         System.out.println(myArray[0]);
     }
 }
+
+//Not yet
