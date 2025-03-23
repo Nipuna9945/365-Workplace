@@ -22,9 +22,9 @@ public class NewClass_001
 
 
 
-<<<<<<< HEAD
+//<<<<<<< HEAD
 
 // Done
-=======
+
 //done
->>>>>>> R
+//>>>>>>> R
