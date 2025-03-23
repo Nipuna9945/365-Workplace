@@ -12,6 +12,6 @@ public class NewClass_002
         myObj.setAge(26);
         myObj.setHomeTown("Stockholm");
         
-        System.out.println("Hey,Im " + myObj.);
+        System.out.println("Hey,Im " + myObj.getfName() + " " + myObj.getlName() + ". Im " + myObj.getAge() + ". Im from " + myObj.getHomeTown());
     }
 }
